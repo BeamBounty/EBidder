@@ -1,0 +1,71 @@
+@page "/application-roles"
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject DialogService DialogService
+@inject ContextMenuService ContextMenuService
+@inject TooltipService TooltipService
+@inject NotificationService NotificationService
+@attribute [Authorize(Roles="Owner,Administrators")]
+
+<PageTitle>Roles</PageTitle>
+<div class="row">
+    <div class="col-12 d-flex justify-content-between align-items-center" style="margin-bottom: 1rem">
+        <RadzenText Text="Roles" TextStyle="TextStyle.H3" TagName="TagName.H1" style="margin: 0" />
+        <RadzenButton Icon="add_circle_outline" Text="Add" Click="@AddClick" Variant="Variant.Flat" />
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <RadzenAlert Size="AlertSize.Large" Shade="Shade.Light" AlertStyle="AlertStyle.Danger" Variant="Variant.Flat" Title="Cannot delete role" Visible="@errorVisible">@error</RadzenAlert>
+        <RadzenDataGrid @ref="grid0" AllowFiltering="true" AllowPaging="true" AllowSorting="true" Data="@roles" TItem="EBidderWeb.Server.Models.ApplicationRole">
+            <Columns>
+                <RadzenDataGridColumn TItem="EBidderWeb.Server.Models.ApplicationRole" Property="Name" Title="Name" />
+                <RadzenDataGridColumn TItem="EBidderWeb.Server.Models.ApplicationRole" Filterable="false" Sortable="false" TextAlign="TextAlign.Center" Width="70px">
+                    <Template Context="role">
+                        <RadzenButton ButtonStyle="ButtonStyle.Danger" Icon="close" Size="ButtonSize.Small"
+                            Variant="Variant.Flat" Shade="Shade.Lighter" Click="@(() => DeleteClick(role))" @onclick:stopPropagation="true" />
+                    </Template>
+                </RadzenDataGridColumn>
+            </Columns>
+        </RadzenDataGrid>
+    </div>
+</div>
+@code {
+        protected IEnumerable<EBidderWeb.Server.Models.ApplicationRole> roles;
+        protected RadzenDataGrid<EBidderWeb.Server.Models.ApplicationRole> grid0;
+        protected string error;
+        protected bool errorVisible;
+
+        [Inject]
+        protected SecurityService Security { get; set; }
+
+        protected override async Task OnInitializedAsync()
+        {
+            roles = await Security.GetRoles();
+        }
+
+        protected async Task AddClick()
+        {
+            await DialogService.OpenAsync<AddApplicationRole>("Add Application Role");
+
+            roles = await Security.GetRoles();
+        }
+
+        protected async Task DeleteClick(EBidderWeb.Server.Models.ApplicationRole role)
+        {
+            try
+            {
+                if (await DialogService.Confirm("Are you sure you want to delete this role?") == true)
+                {
+                    await Security.DeleteRole($"{role.Id}");
+
+                    roles = await Security.GetRoles();
+                }
+            }
+            catch (Exception ex)
+            {
+                errorVisible = true;
+                error = ex.Message;
+            }
+        }
+}

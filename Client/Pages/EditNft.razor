@@ -1,0 +1,34 @@
+@page "/edit-nft"
+@attribute [Authorize]
+
+<PageTitle>Edit Nft</PageTitle>
+    <div class="col-md-12">
+        <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">Cannot save Nft</RadzenAlert>
+        <RadzenTemplateForm TItem="EBidderWeb.Server.Models.EBidder.Nft" Data="@nft" Visible="@(nft != null)" Submit="@FormSubmit">
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="NftID" Component="NftID" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@nft.NftID" Name="NftID" />
+                    <RadzenRequiredValidator Component="NftID" Text="NftID is required" />
+                </div>
+            </div>
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="Name" Component="Name" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@nft.Name" Name="Name" />
+                    <RadzenRequiredValidator Component="Name" Text="Name is required" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end" style="margin-top: 1rem">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Style="margin-right: 0.5rem" Variant="Variant.Flat" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick"  />
+                </div>
+            </div>
+        </RadzenTemplateForm>
+    </div>
+

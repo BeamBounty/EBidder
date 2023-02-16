@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = EBidderWeb.Client
+build_property.RootNamespace = EBidderWeb.Client
+build_property.ProjectDir = C:\Users\geo71\Documents\My Web Sites\EBidderWeb\Client\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\geo71\Documents\My Web Sites\EBidderWeb\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQWRtaW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddApplicationRole.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Sb2xlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXBwbGljYXRpb25Vc2VyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddArtwork.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQXJ0d29yay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddBuyer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkQnV5ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddGameItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkR2FtZUl0ZW0ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddNft.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkTmZ0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/AddSeller.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkU2VsbGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Admins.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/ApplicationRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Sb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/ApplicationUsers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwbGljYXRpb25Vc2Vycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Artworks.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXJ0d29ya3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Buyers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnV5ZXJzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditAdmin.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFkbWluLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditApplicationUser.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFwcGxpY2F0aW9uVXNlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditArtwork.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEFydHdvcmsucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditBuyer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEJ1eWVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditGameItem.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdEdhbWVJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditNft.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdE5mdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/EditSeller.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdFNlbGxlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/GameItems.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcR2FtZUl0ZW1zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Nfts.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmZ0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Profile.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZmlsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Sellers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2VsbGVycy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Pages/Unauthorized.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5hdXRob3JpemVkLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/Shared/RedirectToLogin.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/geo71/Documents/My Web Sites/EBidderWeb/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

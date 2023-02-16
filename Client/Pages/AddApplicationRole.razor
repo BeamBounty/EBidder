@@ -1,0 +1,64 @@
+@page "/add-application-role"
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject DialogService DialogService
+@inject ContextMenuService ContextMenuService
+@inject TooltipService TooltipService
+@inject NotificationService NotificationService
+@attribute [Authorize(Roles="Owner,Administrators")]
+
+<div class="row">
+    <div class="col-md-12">
+        <RadzenTemplateForm TItem="EBidderWeb.Server.Models.ApplicationRole" Data="@role" Visible="@(role != null)" Submit="@FormSubmit">
+            <RadzenAlert Title="Cannot create role" Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">@error</RadzenAlert>
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Component="Name" style="width: 100%" Text="Name" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenTextBox style="display: block; width: 100%" @bind-Value="@(role.Name)" Name="Name" />
+                    <RadzenRequiredValidator Component="Name" Text="Name is required" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end" style="margin-top: 1rem">
+                    <RadzenButton ButtonType="ButtonType.Submit" Icon="save" Text="Save" Variant="Variant.Flat" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Click="@CancelClick" Variant="Variant.Flat" Style="margin-left: 0.5rem" />
+                </div>
+            </div>
+        </RadzenTemplateForm>
+    </div>
+</div>
+@code {
+        protected EBidderWeb.Server.Models.ApplicationRole role;
+        protected string error;
+        protected bool errorVisible;
+
+        [Inject]
+        protected SecurityService Security { get; set; }
+
+        protected override async Task OnInitializedAsync()
+        {
+            role = new EBidderWeb.Server.Models.ApplicationRole();
+        }
+
+        protected async Task FormSubmit(EBidderWeb.Server.Models.ApplicationRole role)
+        {
+            try
+            {
+                await Security.CreateRole(role);
+
+                DialogService.Close(null);
+            }
+            catch (Exception ex)
+            {
+                errorVisible = true;
+                error = ex.Message;
+            }
+        }
+
+        protected async Task CancelClick()
+        {
+            DialogService.Close(null);
+        }
+}

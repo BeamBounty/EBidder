@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EBidderWeb.Server.props" />
+</Project>

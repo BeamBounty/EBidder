@@ -1,0 +1,25 @@
+@page "/add-admin"
+@attribute [Authorize]
+
+<PageTitle>Add Admin</PageTitle>
+    <div class="col-md-12">
+        <RadzenAlert Shade="Shade.Lighter" Variant="Variant.Flat" Size="AlertSize.Small" AlertStyle="AlertStyle.Danger" Visible="@errorVisible">Cannot save Admin</RadzenAlert>
+        <RadzenTemplateForm TItem="EBidderWeb.Server.Models.EBidder.Admin" Data="@admin" Visible="@(admin != null)" Submit="@FormSubmit">
+            <div style="margin-bottom: 1rem" class="row">
+                <div class="col-md-3">
+                    <RadzenLabel Text="SSN" Component="SSN" style="width: 100%" />
+                </div>
+                <div class="col-md-9">
+                    <RadzenNumeric style="display: block; width: 100%" @bind-Value="@admin.SSN" Name="SSN" />
+                    <RadzenRequiredValidator Component="SSN" Text="SSN is required" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col d-flex justify-content-end" style="margin-top: 1rem">
+                    <RadzenButton ButtonStyle="ButtonStyle.Primary" ButtonType="ButtonType.Submit" Icon="save" Text="Save" Style="margin-right: 0.5rem" Variant="Variant.Flat" />
+                    <RadzenButton ButtonStyle="ButtonStyle.Light" Text="Cancel" Variant="Variant.Flat" Click="@CancelButtonClick"  />
+                </div>
+            </div>
+        </RadzenTemplateForm>
+    </div>
+
