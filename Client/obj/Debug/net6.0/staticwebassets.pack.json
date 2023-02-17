@@ -1,39 +1,39 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\obj\\Debug\\net6.0\\build-gz\\JfVczdi+.gz",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\obj\\Debug\\net6.0\\build-gz\\gVxqMJFu.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\images\\login.jpg",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\images\\login.jpg",
       "PackagePath": "staticwebassets\\images\\login.jpg"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\images\\logo-login.svg",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\images\\logo-login.svg",
       "PackagePath": "staticwebassets\\images\\logo-login.svg"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\images\\logo.svg",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
-      "Id": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\wwwroot\\index.html",
+      "Id": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {

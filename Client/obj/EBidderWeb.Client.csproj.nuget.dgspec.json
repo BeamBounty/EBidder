@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\EBidderWeb.Client.csproj": {}
+    "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\EBidderWeb.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\EBidderWeb.Client.csproj": {
+    "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\EBidderWeb.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\EBidderWeb.Client.csproj",
+        "projectUniqueName": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\EBidderWeb.Client.csproj",
         "projectName": "EBidderWeb.Client",
-        "projectPath": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\EBidderWeb.Client.csproj",
-        "packagesPath": "C:\\Users\\geo71\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\geo71\\Documents\\My Web Sites\\EBidderWeb\\Client\\obj\\",
+        "projectPath": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\EBidderWeb.Client.csproj",
+        "packagesPath": "C:\\Users\\inkyd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inkyd\\Source\\Repos\\EBidder\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\geo71\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\inkyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -84,8 +84,20 @@
           "warn": true,
           "downloadDependencies": [
             {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.13, 6.0.13]"
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -93,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
